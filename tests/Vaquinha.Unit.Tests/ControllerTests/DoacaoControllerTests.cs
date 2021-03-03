@@ -30,7 +30,7 @@ namespace Vaquinha.Unit.Tests.ControllerTests
         private DoacoesController _doacaoController;
         private readonly IDoacaoService _doacaoService;
 
-        private Mock<IMapper> _mapper;
+        private Mock<IMapper> _mapper; 
         private Mock<IPaymentService> _polenService = new Mock<IPaymentService>();
         private Mock<ILogger<DoacoesController>> _logger = new Mock<ILogger<DoacoesController>>();
 
